@@ -1,0 +1,390 @@
+/* {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding-top: 0;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #ccc;
+  padding: 20px;
+  display: flex; /* Add this to enable Flexbox *
+  gap: 40px; /* Now this will work 
+}
+
+.flex_container {
+  display: flex;
+  align-items: center; /* Ensures vertical alignment *
+}
+
+.justifier_navbar {
+  justify-content: space-between; /* Ensures spacing between MediBook and Logout 
+}
+
+.logout a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  margin-left: 20px; /* Adds spacing between "Edit" and "Logout" *
+  padding: 5px 10px; /* Adds padding for better click area *
+  border-radius: 5px; /* Rounded corners *
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect *
+}
+
+.logout a:hover {
+  background-color: #333; /* Dark background on hover *
+  color: #fff; /* White text on hover *
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  flex-grow: 1; /* Pushes the footer down *
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.services,
+.appointment,
+.timetable,
+.contact,
+.location {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services {
+  background: white;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.service-card {
+  background: #f4f7f6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(19, 120, 76, 0.1);
+}
+
+.appointment {
+  background: #0a9396;
+  color: white;
+}
+
+.appointment form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.appointment input,
+.appointment select,
+.appointment button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.timetable {
+  background: #f4f7f6;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #005f73;
+  color: white;
+}
+
+.footer {
+  background-color: #504d4d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: auto; /* Ensures footer stays at the bottom *
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #1da1f2;
+}
+
+form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: #ff5361;
+  color: #ffffff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+}**/
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  background: linear-gradient(to right, #0a9396, #005f73);
+  padding: 15px 30px;
+  display: flex;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.flex_container {
+  display: flex;
+  align-items: center;
+}
+
+.justifier_navbar {
+  justify-content: space-between;
+}
+
+.navbar div {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.logout a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.logout a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appointment {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0a9396, #005f73);
+  color: white;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 30px;
+}
+
+.appointment h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.appointment form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.appointment input,
+.appointment select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.appointment input:focus,
+.appointment select:focus {
+  border-color: #0a9396;
+  box-shadow: 0 0 0 2px rgba(10, 147, 150, 0.2);
+  outline: none;
+}
+
+.appointment button {
+  padding: 12px 25px;
+  background: #0a9396;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: auto;
+  margin-top: 10px;
+}
+
+.appointment button:hover {
+  background: #005f73;
+  transform: translateY(-2px);
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  padding: 5px;
+}
+
+.social-links a:hover {
+  color: #0a9396;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .appointment form {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .logout a {
+    margin-left: 10px;
+    padding: 5px 8px;
+  }
+}
