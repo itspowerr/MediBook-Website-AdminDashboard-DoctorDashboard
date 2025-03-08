@@ -23,9 +23,9 @@
 
 9. import the users_db.sql to phpmyadmin
 
-after this everything should work perfectly
+--> after this everything should work perfectly
 
-<h2>admin Credentials: </h2><br>
+<h2>Admin Credentials: </h2><br>
 Email: power@admin.com <br>
 Password: 1337 <br>
 
