@@ -28,7 +28,7 @@
 
 <h2>Credentials: </h2><br>
 
-<h3>Note:</h2> You can Add Users Via Admin Dashboards
+<h3>Note: You can Add Users Via Admin Dashboards</h2>
 
 Email: power@admin.com <br>
 Password: 1337 <br>
@@ -59,6 +59,11 @@ This project is licensed under the MIT License.<br>
 <h2>Doctor's Dashboard</h2>
 
 ![image](https://github.com/user-attachments/assets/571b9214-5dcb-4619-82da-09cb710c17b9) <br>
+
+<h2>Landing Page</h2>
+
+![image](https://github.com/user-attachments/assets/0fb8dc53-153e-4dc5-913c-ae48d43150d0) <br>
+
 
 
 
