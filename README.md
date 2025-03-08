@@ -23,3 +23,13 @@ after this everything should work perfectly
 admin Credentials: <br>
 Email: power@admin.com <br>
 Password: 1337 <br>
+
+
+
+<bold>Contribution<br>
+
+Feel free to fork and contribute by submitting a pull request.<br>
+
+<bold>License<br>
+
+This project is licensed under the MIT License.
