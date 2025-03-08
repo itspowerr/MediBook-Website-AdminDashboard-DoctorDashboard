@@ -16,7 +16,7 @@ paste the login_register in the htdoc folder
 open google then type 'localhost/login_register' enter
 
 
-import the users_db to phpmyadmin
+import the users_db.sql to phpmyadmin
 
 after this everything should work perfectly
 
