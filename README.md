@@ -8,7 +8,7 @@ start MySQL Database server
 
 Go to Xampp directory
 
-open htdoc folder <br>
+open htdocs folder <br>
 
 paste the login_register in the htdoc folder
 
