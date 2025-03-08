@@ -47,6 +47,7 @@ Feel free to fork and contribute by submitting a pull request.<br>
 <h2>License</h2><br>
 
 This project is licensed under the MIT License.<br>
+<br>
 
 <h2>User/Patient Panel</h2>
 
