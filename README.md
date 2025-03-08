@@ -11,17 +11,18 @@
 
 4. start MySQL Database server
 
-5. Go to Xampp directory
+5. import the users_db.sql to phpmyadmin
 
-6. open htdocs folder <br>
+6. Go to Xampp directory
 
-7. paste the downloaded login_register in the htdocs folder
+7. open htdocs folder <br>
+
+8. paste the downloaded login_register in the htdocs folder
 
 
-8. open google then type 'localhost/login_register' enter
+9. open google then type 'localhost/login_register' enter
 
 
-9. import the users_db.sql to phpmyadmin
 
 --> after this everything should work perfectly
 
