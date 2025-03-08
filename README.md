@@ -10,7 +10,7 @@ Go to Xampp directory
 
 open htdocs folder <br>
 
-paste the login_register in the htdoc folder
+paste the login_register in the htdocs folder
 
 
 open google then type 'localhost/login_register' enter
