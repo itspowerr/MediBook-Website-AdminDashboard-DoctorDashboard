@@ -28,7 +28,7 @@
 
 <h2>Credentials: </h2><br>
 
-<h3>Note: You can Add Users Via Admin Dashboards</h2>
+<h3>Note: You can Add Users Via Admin Dashboard</h2>
 
 Email: power@admin.com <br>
 Password: 1337 <br>
