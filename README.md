@@ -18,6 +18,6 @@ import the users_db to phpmyadmin
 
 after this everything should work perfectly
 
-admin Credentials 
-power@admin.com
-1337
+admin Credentials <br>
+Email: power@admin.com <br>
+Password: 1337 <br>
