@@ -1,26 +1,31 @@
-Download Xampp
 
-Install Xampp
-
-open Xampp
-
-start MySQL Database server
-
-Go to Xampp directory
-
-open htdocs folder <br>
-
-paste the login_register in the htdocs folder
+<h2>How To Make it Work?</h2>
 
 
-open google then type 'localhost/login_register' enter
+
+1. Download Xampp
+
+2. Install Xampp
+
+3. open Xampp
+
+4. start MySQL Database server
+
+5. Go to Xampp directory
+
+6. open htdocs folder <br>
+
+7. paste the login_register in the htdocs folder
 
 
-import the users_db.sql to phpmyadmin
+8. open google then type 'localhost/login_register' enter
+
+
+9. import the users_db.sql to phpmyadmin
 
 after this everything should work perfectly
 
-admin Credentials: <br>
+<h2>admin Credentials: </h2><br>
 Email: power@admin.com <br>
 Password: 1337 <br>
 
