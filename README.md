@@ -4,7 +4,7 @@ Install Xampp
 
 open Xampp
 
-start MQL Database server
+start MySQL Database server
 
 Go to Xampp directory
 
