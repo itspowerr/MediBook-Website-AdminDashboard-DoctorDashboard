@@ -26,10 +26,10 @@ Password: 1337 <br>
 
 
 
-<bold>Contribution<br>
+<h2>Contribution</h2><br>
 
 Feel free to fork and contribute by submitting a pull request.<br>
 
-<bold>License<br>
+<h2>License</h2><br>
 
 This project is licensed under the MIT License.
