@@ -15,7 +15,7 @@
 
 6. open htdocs folder <br>
 
-7. paste the login_register in the htdocs folder
+7. paste the downloaded login_register in the htdocs folder
 
 
 8. open google then type 'localhost/login_register' enter
