@@ -619,7 +619,7 @@
         </div>
     </header>
 
-    <section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bkg-img.jpg-D7JSDY50A4LDZbmmPgAYd5mfTsvRPc.jpeg') center/cover;">
+    <section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/bkg-img.jpg') center/cover;">
         <div class="container">
             <div class="hero-content">
                 <h1>Your Health, Our Priority</h1>
