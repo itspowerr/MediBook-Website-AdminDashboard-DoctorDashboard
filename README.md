@@ -2,7 +2,6 @@
 <h2>How To Make it Work?</h2>
 
 
-
 1. Download Xampp
 
 2. Install Xampp
